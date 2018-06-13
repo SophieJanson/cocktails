@@ -1,0 +1,25 @@
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  border: 1px solid magenta;
+  border-radius: 3px;
+  padding: .2em;
+  color: purple;
+  background-color: lightpink;
+}
+a:hover {
+  background-color: magenta;
+  color: #fff;
+}
+.cocktail-categories {
+  width: 80%;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.cocktail-category-list {
+  background-color: #000;
+}
